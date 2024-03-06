@@ -68,3 +68,6 @@ console.log("Array después de agregar un elemento al principio:", agrega);
 
 agrega.unshift(-2, -1);
 console.log("Array después de agregar varios elementos al principio:", agrega);
+
+let elimina1= elimP.shift();
+console.log(elimp);
