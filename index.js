@@ -84,3 +84,12 @@ console.log(stringFromArray);
 
 let negativeSliceArray = array.slice(-3);
 console.log(negativeSliceArray); 
+
+let eliminaP = [1, 2, 3, 4, 5];
+console.log("Array original:", eliminaP);
+
+// Obtener una porción del array que queremos eliminar
+let porcionEliminar = eliminaP.slice(1, 3);
+
+// Crear un nuevo array que excluya la porción que queremos eliminar
+let nuevoArray = eliminaP.slice(0, 1).concat(miArray.slice(3));
