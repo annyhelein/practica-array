@@ -35,3 +35,8 @@ return val;
 let cantidadValores = 5;
 let arrayGenerado = generarValores(cantidadValores);
 console.log(arrayGenerado); 
+
+//metodos basicos de array//
+let miArray = [1, 2, 3, 4, 5];
+let longitud1 = miArray.length;
+console.log("La longitud del array es: " + longitud1);
