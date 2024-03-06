@@ -93,3 +93,7 @@ let porcionEliminar = eliminaP.slice(1, 3);
 
 // Crear un nuevo array que excluya la porción que queremos eliminar
 let nuevoArray = eliminaP.slice(0, 1).concat(miArray.slice(3));
+
+let nuevosElementos = [0, -1];
+array.unshift(...nuevosElementos);
+console.log(array);
