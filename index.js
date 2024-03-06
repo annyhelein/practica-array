@@ -14,3 +14,8 @@ let array = new Array(longitud).fill(valor);
 
 let cadena = "Hola,  espero que te encuentres bien";
 let tex = string.split(", ");
+
+let nada1 = [];
+let elementos2 = [1, 2, 3, 4, 5];
+
+let combinedArray = [...nada1, ...elementos2];
