@@ -40,3 +40,14 @@ console.log(arrayGenerado);
 let miArray = [1, 2, 3, 4, 5];
 let longitud1 = miArray.length;
 console.log("La longitud del array es: " + longitud1);
+
+let crelefiar = [1, 2, 3, 4, 5];
+console.log("Array original:", miArray);
+
+// Agregar un elemento al final del array
+crelefiar.push(6);
+console.log("Array después de agregar un elemento:", miArray);
+
+// Agregar varios elementos al final del array
+crelefiar.push(7, 8, 9);
+console.log("Array después de agregar varios elementos:", crelefiar);
