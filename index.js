@@ -78,3 +78,8 @@ console.log("Array original:", proporcion);
 // Obtiene una porción del array desde el índice 1 hasta el índice 3 (sin incluirlo)
 let porcion = proporcion.slice(1, 3);
 console.log("Porción del array:", porcion);
+
+let stringFromArray = array.join("-");
+console.log(stringFromArray); 
+
+
