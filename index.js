@@ -19,3 +19,6 @@ let nada1 = [];
 let elementos2 = [1, 2, 3, 4, 5];
 
 let combinedArray = [...nada1, ...elementos2];
+
+let valU = [16, 20, 25, 28];
+let unic = [...new Set(array)];
