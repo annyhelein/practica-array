@@ -51,3 +51,11 @@ console.log("Array después de agregar un elemento:", miArray);
 // Agregar varios elementos al final del array
 crelefiar.push(7, 8, 9);
 console.log("Array después de agregar varios elementos:", crelefiar);
+
+let elimina = [1, 2, 3, 4, 5];
+console.log("Array original:", elimina);
+
+// Eliminar el último elemento del array
+let ultimoElementoEliminado = elimina.pop();
+console.log("Array después de eliminar el último elemento:", elimina);
+console.log("Último elemento eliminado:", ultimoElementoEliminado);
