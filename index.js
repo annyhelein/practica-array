@@ -71,3 +71,10 @@ console.log("Array después de agregar varios elementos al principio:", agrega);
 
 let elimina1= elimP.shift();
 console.log(elimp);
+
+let proporcion = [1, 2, 3, 4, 5];
+console.log("Array original:", proporcion);
+
+// Obtiene una porción del array desde el índice 1 hasta el índice 3 (sin incluirlo)
+let porcion = proporcion.slice(1, 3);
+console.log("Porción del array:", porcion);
