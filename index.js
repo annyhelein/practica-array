@@ -82,4 +82,5 @@ console.log("Porción del array:", porcion);
 let stringFromArray = array.join("-");
 console.log(stringFromArray); 
 
-
+let negativeSliceArray = array.slice(-3);
+console.log(negativeSliceArray); 
