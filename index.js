@@ -22,3 +22,16 @@ let combinedArray = [...nada1, ...elementos2];
 
 let valU = [16, 20, 25, 28];
 let unic = [...new Set(array)];
+
+function generarValores(s) {
+    let val = [];
+    for (let i = 0; i < s; i++) {
+
+array.push(i * 2); 
+}
+return val;
+}
+
+let cantidadValores = 5;
+let arrayGenerado = generarValores(cantidadValores);
+console.log(arrayGenerado); 
