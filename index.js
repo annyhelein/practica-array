@@ -59,3 +59,12 @@ console.log("Array original:", elimina);
 let ultimoElementoEliminado = elimina.pop();
 console.log("Array después de eliminar el último elemento:", elimina);
 console.log("Último elemento eliminado:", ultimoElementoEliminado);
+
+let agrega = [1, 2, 3, 4, 5];
+console.log("Array original:", agrega);
+
+agrega.unshift(0);
+console.log("Array después de agregar un elemento al principio:", agrega);
+
+agrega.unshift(-2, -1);
+console.log("Array después de agregar varios elementos al principio:", agrega);
